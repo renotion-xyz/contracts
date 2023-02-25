@@ -12,6 +12,11 @@ The web-app to interact with the contract: https://github.com/renotion-xyz/web3-
 ## TODO
 - [ ] Allow to store more metadata: SEO, custom scripts for analytics, etc
 
+## Deployment
+
+- Polygon Mainnet: [0xD189E333277a8dbd65244A97bE3ecBE4f7Bee5cf](https://polygonscan.com/address/0xD189E333277a8dbd65244A97bE3ecBE4f7Bee5cf)
+- Polygon Mumbai testnet: [0x868d265ddada824efd8c129dfe4d4642aa13c7be](https://mumbai.polygonscan.com/address/0x868d265ddada824efd8c129dfe4d4642aa13c7be)
+
 ## Test
 
 ```sh
