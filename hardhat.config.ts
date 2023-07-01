@@ -30,11 +30,25 @@ const config: HardhatUserConfig = {
     },
     poly: {
       url: "https://polygon-rpc.com/"
+    },
+    baseGoerli: {
+      url: "https://goerli.base.org"
     }
   },
 
   etherscan: {
-    apiKey: process.env.ETHERSCAN_KEY
+    apiKey: process.env.ETHERSCAN_KEY,
+    customChains: [
+      {
+        network: "baseGoerli",
+        chainId: 84531,
+        urls: {
+         // Basescan by Etherscan
+         apiURL: "https://api-goerli.basescan.org/api",
+         browserURL: "https://goerli.basescan.org"
+        }
+      }
+    ]
   }
 };
 
